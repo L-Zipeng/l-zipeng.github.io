@@ -6,12 +6,12 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "nanjing-China" #
-title                    : "gx-sun / MS" #主页上左上角信息
+locale                   : "Munich-Germany" #
+title                    : "Ercong Nie" #主页上左上角信息
 title_separator          : "-"
-name                     : &name "gx-sun" 
-description              : &description "personal description"
-url                      : https://gx-sun.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Ercong Nie"
+description              : &description "I am PhD student at LMU of Munich in computational linguistics / NLP."
+url                      : https://ercong21.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "gx-sun.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -55,14 +55,8 @@ bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
 
-# Social Sharing #为什么改了没用
 twitter:
   username               : &twitter
-zhihu:
-  username               : &zhihu
-  
-bilibili:
-  username               : &bilibili
   
 facebook:
   username               :
@@ -86,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "gx-sun"
+  name             : "Ercong Nie"
   avatar           : "profile.png"
-  bio              : "I am a postgraduate student in NJUST of China "
-  location         : "Nanjing,China"
+  bio              : "I am a PhD student of computational linguistics / NLP at CIS, LMU of Munich. "
+  location         : "Munich, Germany"
   employer         :
   pubmed           :  # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    :  # "http://yourfullgooglescholarurl.com"
-  email            : "2698804156@qq.com"
+  email            : "nie@cis.lmu.de"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -102,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "gx-sun"
+  github           : "ercong21"
   google_plus      :
   keybase          :
   instagram        :
@@ -121,9 +115,6 @@ author:
   xing             :
   youtube          : # "https://youtube.com"
   wikipedia        : #
-  bilibili         : #"https://space.bilibili.com/381546863"
-  zhihu            : "https://zhihu.com"
-  blog             : "https://blog.csdn.net/Meet_csdn"
 
 
 # Reading Files
