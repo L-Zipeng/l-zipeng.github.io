@@ -22,7 +22,7 @@ redirect_from:
   * **Cross-lingual transfer learning**
   * **Multilingual pretrained language models**
   * **NLP-based methods for parsing and morphology of Middle High German**
-* Feel free to have an overview of my CV [here](https://www.cip.ifi.lmu.de/~nie/Files/)
+* Feel free to have an overview of my CV [here](https://www.cip.ifi.lmu.de/~nie/Files/).
 
 
 
