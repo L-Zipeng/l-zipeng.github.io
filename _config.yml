@@ -6,14 +6,13 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "Munich-Germany" #
-title                    : "Ercong Nie" #主页上左上角信息
+locale                   : "Zurich-Switzerland" #
+title                    : "Zipeng Liu" #主页上左上角信息
 title_separator          : "-"
-name                     : &name "Ercong Nie"
-description              : &description "I am PhD student at LMU of Munich in computational linguistics / NLP."
-url                      : https://ercong21.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Zipeng Liu"
+url                      : https://l-zipeng.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "gx-sun.github.io"
+repository               : "l-zipeng.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,14 +79,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Ercong Nie"
+  name             : "Zipeng Liu"
   avatar           : "profile.png"
-  bio              : "I am a PhD student of computational linguistics / NLP at CIS, LMU of Munich. "
-  location         : "Munich, Germany"
+  bio              : "I am a PhD student at PSI/ETH Zurich. "
+  location         : "Zurich, Switzerland"
   employer         :
   pubmed           :  # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    :  # "http://yourfullgooglescholarurl.com"
-  email            : "nie@cis.lmu.de"
+  email            : "zipliu@ethz.ch"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,24 +95,24 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "ercong21"
+  github           : "L-Zipeng"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "ercong-nie-6375a5104"
-  orcid            : # "http://orcid.org/yourorcidurl"
+  linkedin         : ""
+  orcid            : # ""
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "NielKlug"
+  twitter          : ""
   vine             :
   weibo            :
   xing             :
-  youtube          : # "https://youtube.com"
+  youtube          : # ""
   wikipedia        : #
 
 
