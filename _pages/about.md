@@ -10,19 +10,15 @@ redirect_from:
 
 ** **  
 
-* Hi, I am Ercong.
-* Currently, I am a first-year PhD student at [Center for Information and Language Processing](https://www.cis.lmu.de/) (CIS), 
-[LMU of Munich](https://www.lmu.de/en/index.html) in computational linguistics / natural language processing.
-* Previously, I obtained my M.Sc. degree in **computational linguistics** and **informatics** at 
-[LMU of Munich](https://www.lmu.de/en/index.html).
-* I finished my bachelor study in German linguistics and Finance at 
-[Shanghai Jiao Tong University](https://schuetze.cis.lmu.de/) (SJTU). I also spent one semester at 
-[University of Heidelberg](https://www.uni-heidelberg.de/en) for an exchange study in *Germanistik im Kulturvergleich*.
-* My research interest includes: 
-  * **Cross-lingual transfer learning**
-  * **Multilingual pretrained language models**
-  * **NLP-based methods for parsing and morphology of Middle High German**
-* Feel free to have an overview of my CV [here](https://www.cip.ifi.lmu.de/~nie/Files/Resume_Nie.pdf).
+* Hi, I am Zipeng.
+* I am a PhD student started in March 2022 in the Technology Assessment group at the Paul Scherrer Institute and in the Chair of Energy System Analysis at ETH Zürich.
+* My research interests are sustainability assessment, life cycle assessment and material flow analysis. 
+* My PhD work will focus on technology specification and sustainability assessment of low carbon fuels in future scenarios to reach a net-zero emission.
+* I obtained Master's degree in Environmental Science from ETH Zurich in February 2022. 
+* I stayed at EMPA for one year for an internship and master thesis, focusing on probabilistic dynamic material flow analysis and environmental emissions of plastics.
+* Previously, I received his Bachelor in Environmental Science from Tongji University, China (2015-2019), with a short internship at UN Environment in Kenya in 2019.
+
+
 
 
 
