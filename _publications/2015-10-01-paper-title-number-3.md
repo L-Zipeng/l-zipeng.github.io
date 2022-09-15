@@ -6,10 +6,11 @@ excerpt: 'Detailed knowledge about polymer flows through the anthroposphere and 
 date: 2022-01-20
 venue: 'Resources, Conservation and Recycling'
 paperurl: 'https://doi.org/10.1016/j.resconrec.2021.106071'
-citation: 'Liu Z, Nowack B, Probabilistic material flow analysis and emissions modeling for five commodity plastics (PUR, ABS, PA, PC, and PMMA) as macroplastics and microplastics, Resources, Conservation and Recycling, Volume 179, 2022'
+citation: 'Liu Z, Nowack B, “Probabilistic Material Flow Analysis and Emissions Modeling for Five Commodity Plastics as Macroplastics and Microplastics”, Resources, Conservation and Recycling, 179, 2022.'
 ---
 This paper is about the number 3. The number 4 is left for future work.
 
 [Download paper here](https://doi.org/10.1016/j.resconrec.2021.106071)
 
-Recommended citation: Liu Z, Nowack B, Probabilistic material flow analysis and emissions modeling for five commodity plastics (PUR, ABS, PA, PC, and PMMA) as macroplastics and microplastics, Resources, Conservation and Recycling, Volume 179, 2022.
+Recommended citation: Liu Z, Nowack B, “Probabilistic Material Flow Analysis and Emissions Modeling for Five Commodity Plastics (PUR,
+ABS, PA, PC, and PMMA) as Macroplastics and Microplastics”, Resources, Conservation and Recycling, 179, 2022.
