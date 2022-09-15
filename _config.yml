@@ -54,8 +54,6 @@ bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
 
-twitter:
-  username               : &twitter
   
 facebook:
   username               :
@@ -95,25 +93,18 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "L-Zipeng"
+  github           : "https://github.com/L-Zipeng"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : ""
+  linkedin         : "https://www.linkedin.com/in/zipeng-liu-907383137"
   orcid            : # ""
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
-  twitter          : ""
-  vine             :
-  weibo            :
-  xing             :
-  youtube          : # ""
-  wikipedia        : #
+
 
 
 # Reading Files
