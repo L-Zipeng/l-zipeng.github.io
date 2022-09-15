@@ -11,31 +11,57 @@ redirect_from:
 
 Education
 ======
-* Ph.D student at LMU of Munich (LMU), 2022.09-present
-* M.S. at LMU of Munich (LMU), 2020.04-2022.08  
-* B.A. at Shanghai Jiao Tong University (SJTU), 2015.09-2019.06
+* Ph.D student, Eidgenössische Technische Hochschule Zürich (ETH Zürich)
+  Zürich, Switzerland, Mar 2022 - present
+* M.Sc. in Environmental Sciences, Eidgenössische Technische Hochschule Zürich (ETH Zürich)
+  Zürich, Switzerland, Sep 2019 - Feb 2022 
+* B.Sc. in Environmental Sciences, Tongji University
+  Shanghai, China, May 2015 - Aug 2019
 
 Professional Experience
 ======
-* Member of Supply Chain Innovation Team at Infineon Technogolies AG, 2021.08-2022.03
-  * Ontology Modeling and linguistic analysis of knowledge graphs in the fields of supply chain and semiconductor.
-  * Developed and improved a document retrieval system based on the language model of BERT and the knowledge graph of
-  digital reference.
+* Empa – Swiss Federal Laboratories for Materials Science and Technology, Technology and Society Laboratory, St Gallen, Switzerland
+  Guest Student (May - Jul 2020); Internship (Aug 2020 - Jan 2021)
+  * Collected data for complete life cycle analysis, including emission pathways for five polymers in Switzerland and Europe.
+  * Performed a probabilistic material flow analysis and emission model for five polymers as macro and microplastic to 11 environmental sinks based on R using Monte    Carlo simulation and Bayesian distribution.
+  * Established a polymer-specific dynamic release model based on material flow analysis using Python and SQL.
+* UN Environment (UNEP), Science Division Secretariat team, Nairobi, Kenya
+  INTERN – SCIENCE POLICY INTERFACE
+  * Assisted with compilation of the comprehensive database for the 2019 Science Policy Business Forum.
+  * Maintained material preparation, reception, on-site organization and other duties of several meetings duringthe UN Environment Assembly 4.
+* UN Environment-Tongji Institute of Environment for Sustainable Development (IESD), Shanghai, China
+  Manager Assistant
+  * Assisted IESD manager on a wide range of tasks. Main responsibilities include organization of international events, the management and update of website, writing and translation of various literature.
+  *  Acted as the organizer of a number of 200+ attendee events including the Fourth Forum on Urban Ecology and Energy Conservation in 2017; Asia Pacific Leadership Programme on Environment and Sustainable Development (APLP) in 2016 and 2017, etc.
+  *  Responsible for training material preparation, correspondence, meeting invitation, PR work, content and agenda preparation, compiled and edited proceedings, translated content, and managed volunteers.
 
-Teaching Experience
+Honours, competitions & awards
 =====
-* Exercise part of basic module of Master program computational linguistics, 2021.10-2022.02
-  * Summarized the theoretical contents of the lecture in the field of lexicon automaton.
-  * Taught basic python programming skills and prepared Python exercises for students.
-  * Instructed students to implement the algorithms learned from the lecture with Python
-  * Built and maintained the course web page: [https://www.cip.ifi.lmu.de/~nie/basismodul](https://www.cip.ifi.lmu.de/~nie/basismodul)
+2019 - 2021, Masters Scholarship Programme, ETH Zurich
+2019, Excellent Graduate of Tongji University, Recipient
+2019, Tongji University, Excellent Graduation Thesis Award of College of Env Sci & Eng
+2018, Telefonaktiebolaget LM Ericsson, Ericsson Innovation Awards (EIA), Global 4th prize and Employees Popular Project Prize (out of 1444 entries)
+2018, Consortium for Mathematics and Its Applications (COMAP), The Interdisciplinary Contest In Modelling (ICM), Meritorious Winner
+  As the key-member of 3-person team, designed and developed a novel model using back propagation (BP)-neural network and principal component analysis (PCA) to assess   country level vulnerability through an index made by 24 impact indicators and predict how the climate change would affect these indicators.
+2018, full scholarship for Technion International (Israel Institute of Technology), Summer School of Engineering & Science Program, Haifa, Israel
+2017, Tongji University, Guo Xiebirong Enterprise Scholarship
+2016, Tongji University, Outstanding Student Award, Recipient
 
-  
-Skills
+
+Skills & interests
 ======
-* Programming languages: Python, C++, familiar with common NLP and machine learning packages and frameworks.
-* Natural Languages: Chinese Mandarin (Native), English (Fluent), German(Fluent)
-* Tools: LaTex, HTML, Linux, Markdown, Git, PyCharm, Jupyter Notebook etc.
+* Software:
+  Production: Microsoft Office, Adobe Premiere, Adobe Illustrator, AutoCAD
+  Analysis: MATLAB, SPSS, ArcGIS, Power BI, Brightway
+  Programming: Python (1 year), C# (2 years), R (1 year)
+* Languages:
+  Native in Chinese
+  Fluent in English (CET6, IELTS 7.0)
+  Basic knowledge of German (A2)
+* Interests:
+  Traditional Chinese Painting (Grade-7, qualified by Chinese Academy of Art),
+  Taekwondo (Red Belt, WTF2),
+  Badminton, Hiking, Billiards
 
   
 [//]: # (Talks)
