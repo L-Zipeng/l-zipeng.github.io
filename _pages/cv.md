@@ -9,6 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
+
 Education
 ======
 * **Ph.D student, Eidgenössische Technische Hochschule Zürich (ETH Zürich)**
@@ -16,7 +17,8 @@ Education
 * **M.Sc. in Environmental Sciences, Eidgenössische Technische Hochschule Zürich (ETH Zürich)**
   <br>Zürich, Switzerland, Sep 2019 - Feb 2022 
 * **B.Sc. in Environmental Sciences, Tongji University**
-  <br>Shanghai, China, May 2015 - Aug 2019
+  <br>Shanghai, China, May 2015 - Aug 2019<br>
+
 
 Professional Experience
 ======
@@ -30,35 +32,36 @@ Professional Experience
 * Manager Assistant<br> **UN Environment-Tongji Institute of Environment for Sustainable Development (IESD), Shanghai, China**
   * Assisted IESD manager on a wide range of tasks. Main responsibilities include organization of international events, the management and update of website, writing and translation of various literature.
   *  Acted as the organizer of a number of 200+ attendee events including the Fourth Forum on Urban Ecology and Energy Conservation in 2017; Asia Pacific Leadership Programme on Environment and Sustainable Development (APLP) in 2016 and 2017, etc.
-  *  Responsible for training material preparation, correspondence, meeting invitation, PR work, content and agenda preparation, compiled and edited proceedings, translated content, and managed volunteers.
+  *  Responsible for training material preparation, correspondence, meeting invitation, PR work, content and agenda preparation, compiled and edited proceedings, translated content, and managed volunteers.<br>
+
 
 Honours, competitions & awards
 =====
-* 2019 - 2021, Masters Scholarship Programme, ETH Zurich
-* 2019, Excellent Graduate of Tongji University, Recipient
-* 2019, Tongji University, Excellent Graduation Thesis Award of College of Env Sci & Eng
-* 2018, Telefonaktiebolaget LM Ericsson, Ericsson Innovation Awards (EIA), Global 4th prize and Employees Popular Project Prize (out of 1444 entries)
-* 2018, Consortium for Mathematics and Its Applications (COMAP), The Interdisciplinary Contest In Modelling (ICM), Meritorious Winner
+ * 2019 - 2021, Masters Scholarship Programme, ETH Zurich
+ * 2019, Excellent Graduate of Tongji University, Recipient
+ * 2019, Tongji University, Excellent Graduation Thesis Award of College of Env Sci & Eng
+ * 2018, Telefonaktiebolaget LM Ericsson, Ericsson Innovation Awards (EIA), Global 4th prize and Employees Popular Project Prize (out of 1444 entries)
+ * 2018, Consortium for Mathematics and Its Applications (COMAP), The Interdisciplinary Contest In Modelling (ICM), Meritorious Winner
    *  As the key-member of 3-person team, designed and developed a novel model using back propagation (BP)-neural network and principal component analysis (PCA) to assess   country level vulnerability through an index made by 24 impact indicators and predict how the climate change would affect these indicators.
-* 2018, full scholarship for Technion International (Israel Institute of Technology), Summer School of Engineering & Science Program, Haifa, Israel
-* 2017, Tongji University, Guo Xiebirong Enterprise Scholarship
-* 2016, Tongji University, Outstanding Student Award, Recipient
+ * 2018, full scholarship for Technion International (Israel Institute of Technology), Summer School of Engineering & Science Program, Haifa, Israel
+ * 2017, Tongji University, Guo Xiebirong Enterprise Scholarship
+ * 2016, Tongji University, Outstanding Student Award, Recipient<br>
 
 
 Skills & interests
 ======
-* Software:
-  Production: Microsoft Office, Adobe Premiere, Adobe Illustrator, AutoCAD
-  Analysis: MATLAB, SPSS, ArcGIS, Power BI, Brightway
+* Software:<br>
+  Production: Microsoft Office, Adobe Premiere, Adobe Illustrator, AutoCAD<br>
+  Analysis: MATLAB, SPSS, ArcGIS, Power BI, Brightway<br>
   Programming: Python (1 year), C# (2 years), R (1 year)
-* Languages:
-  Native in Chinese
-  Fluent in English (CET6, IELTS 7.0)
+* Languages:<br>
+  Native in Chinese<br>
+  Fluent in English (CET6, IELTS 7.0)<br>
   Basic knowledge of German (A2)
-* Interests:
-  Traditional Chinese Painting (Grade-7, qualified by Chinese Academy of Art),
-  Taekwondo (Red Belt, WTF2),
-  Badminton, Hiking, Billiards
+* Interests:<br>
+  Traditional Chinese Painting (Grade-7, qualified by Chinese Academy of Art),<br>
+  Taekwondo (Red Belt, WTF2),<br>
+  Badminton, Hiking, Billiards<br>
 
   
 [//]: # (Talks)
