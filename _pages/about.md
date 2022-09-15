@@ -11,13 +11,11 @@ redirect_from:
 ** **  
 
 * Hi, I am Zipeng.
-* I am a PhD student started in March 2022 in the Technology Assessment group at the Paul Scherrer Institute and in the Chair of Energy System Analysis at ETH Zürich.
-* My research interests are sustainability assessment, life cycle assessment and material flow analysis. 
-* My PhD work will focus on technology specification and sustainability assessment of low carbon fuels in future scenarios to reach a net-zero emission.
-* I obtained Master's degree in Environmental Science from ETH Zurich in February 2022. 
-* I stayed at EMPA for one year for an internship and master thesis, focusing on probabilistic dynamic material flow analysis and environmental emissions of plastics.
-* Previously, I received his Bachelor in Environmental Science from Tongji University, China (2015-2019), with a short internship at UN Environment in Kenya in 2019.
+* I am a PhD student in the Laboratory for Energy System Analysis at the Paul Scherrer Institute (PSI) and in the Institute of Energy and Process Engineering of ETH Zürich, Switzerland.
+* My research interests are sustainability assessment, life cycle assessment and material flow analysis. I am focusing on technology specification and sustainability assessment of low carbon fuels in future scenarios to reach a net-zero emission.
 
+* I did my Masters in Environmental Science at ETH Zurich, during which I stayed at Swiss Federal Laboratories for Materials Science and Technology (EMPA) for one year for an internship and master thesis.
+* Previously, I received my Bachelor in Environmental Science from Tongji University, China (2015-2019), with a short internship at UN Environment in Kenya in 2019.
 
 
 
