@@ -12,7 +12,7 @@ redirect_from:
 
 Education
 ======
-* **Ph.D student, Eidgenössische Technische Hochschule Zürich (ETH Zürich)**
+* **Ph.D. student, Paul Scherrer Institute and Eidgenössische Technische Hochschule Zürich (ETH Zürich)**
   <br>Zürich, Switzerland, Mar 2022 - present
 * **M.Sc. in Environmental Sciences, Eidgenössische Technische Hochschule Zürich (ETH Zürich)**
   <br>Zürich, Switzerland, Sep 2019 - Feb 2022 
@@ -26,10 +26,10 @@ Professional Experience
   * Collected data for complete life cycle analysis, including emission pathways for five polymers in Switzerland and Europe.
   * Performed a probabilistic material flow analysis and emission model for five polymers as macro and microplastic to 11 environmental sinks based on R using Monte    Carlo simulation and Bayesian distribution.
   * Established a polymer-specific dynamic release model based on material flow analysis using Python and SQL.
-* INTERN – SCIENCE POLICY INTERFACE <br>**UN Environment (UNEP), Science Division Secretariat team, Nairobi, Kenya**
+* INTERN – SCIENCE POLICY INTERFACE (Feb - Mar 2019) <br>**UN Environment (UNEP), Science Division Secretariat team, Nairobi, Kenya**
   * Assisted with compilation of the comprehensive database for the 2019 Science Policy Business Forum.
   * Maintained material preparation, reception, on-site organization and other duties of several meetings duringthe UN Environment Assembly 4.
-* Manager Assistant<br> **UN Environment-Tongji Institute of Environment for Sustainable Development (IESD), Shanghai, China**
+* Manager Assistant (Sep 2016 - Aug 2018)<br> **UN Environment-Tongji Institute of Environment for Sustainable Development (IESD), Shanghai, China**
   * Assisted IESD manager on a wide range of tasks. Main responsibilities include organization of international events, the management and update of website, writing and translation of various literature.
   *  Acted as the organizer of a number of 200+ attendee events including the Fourth Forum on Urban Ecology and Energy Conservation in 2017; Asia Pacific Leadership Programme on Environment and Sustainable Development (APLP) in 2016 and 2017, etc.
   *  Responsible for training material preparation, correspondence, meeting invitation, PR work, content and agenda preparation, compiled and edited proceedings, translated content, and managed volunteers.<br>
