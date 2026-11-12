@@ -7,6 +7,9 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
+{% assign teaching = site.teaching | where_exp: 'item', 'item.archived != true' %}
+{% for post in teaching reversed %}
   {% include archive-single.html %}
+{% else %}
+  <p>See <a href="{{ '/cv/' | relative_url }}#recognition">teaching and supervision on the CV</a>.</p>
 {% endfor %}

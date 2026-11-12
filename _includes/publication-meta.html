@@ -1,0 +1,3 @@
+{% assign item = include.paper %}
+<p class="publication-meta">{{ item.authors | join: ', ' | escape }}{% if item.author_note %}. {{ item.author_note | escape }}{% endif %}</p>
+<p class="publication-meta"><cite>{{ item.venue | escape }}</cite>{% if item.volume %} {{ item.volume | escape }}{% endif %}{% if item.issue %}({{ item.issue | escape }}){% endif %}{% if item.locator %}, {{ item.locator | escape }}{% endif %}{% if include.show_year %} · {{ item.citation_date | slice: 0, 4 }}{% endif %}</p>

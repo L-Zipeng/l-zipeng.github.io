@@ -1,0 +1,17 @@
+---
+layout: academic-page
+title: Contact
+permalink: /contact/
+---
+
+<div class="page-content contact-grid">
+  <section class="glass-panel" aria-labelledby="email">
+    <h2 class="subsection-heading" id="email">Email</h2>
+    <a class="contact-email" href="mailto:{{ site.author.email | escape }}">{{ site.author.email | escape }}</a>
+    <p>For research enquiries and collaboration.</p>
+  </section>
+  <section class="glass-panel" aria-labelledby="profiles">
+    <h2 class="subsection-heading" id="profiles">Professional profiles</h2>
+    {% include professional-links.html institutions=true %}
+  </section>
+</div>

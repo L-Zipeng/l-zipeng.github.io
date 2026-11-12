@@ -8,7 +8,10 @@ author_profile: true
 {% include base_path %}
 
 
-{% for post in site.portfolio %}
+{% assign portfolio = site.portfolio | where_exp: 'item', 'item.archived != true' %}
+{% for post in portfolio %}
   {% include archive-single.html %}
+{% else %}
+  <p>Explore <a href="{{ '/research/' | relative_url }}">Research</a> or <a href="{{ '/photography/' | relative_url }}">Photography</a>.</p>
 {% endfor %}
 

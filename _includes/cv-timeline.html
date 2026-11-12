@@ -1,0 +1,15 @@
+<section class="cv-section" aria-labelledby="{{ include.id }}">
+  <h2 class="subsection-heading" id="{{ include.id }}">{{ include.title | escape }}</h2>
+  <ol class="timeline">
+    {% for entry in include.entries %}
+      <li>
+        <p class="timeline-meta">{{ entry.dates | escape }}</p>
+        <div>
+          <h3>{{ entry.title | escape }}</h3>
+          <p class="timeline-organization">{{ entry.organization | escape }}</p>
+          <p>{{ entry.detail | escape }}</p>
+        </div>
+      </li>
+    {% endfor %}
+  </ol>
+</section>

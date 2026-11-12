@@ -1,5 +1,9 @@
 ---
-title: "Teaching experience 2"
+layout: archived-example
+title: Archived template example
+archived: true
+sitemap: false
+noindex: true
 collection: teaching
 type: "Workshop"
 permalink: /teaching/2015-spring-teaching-1

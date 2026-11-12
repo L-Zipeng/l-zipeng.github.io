@@ -1,0 +1,110 @@
+.photo-grid {
+  --row-height: clamp(8.5rem, 19vw, 15rem);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  gap: clamp(.8rem, 2vw, 1.5rem);
+}
+
+.photo-grid::after {
+  content: "";
+  flex: 1000 1 0;
+}
+
+.photo {
+  flex: var(--photo-ratio) 1 calc(var(--photo-ratio) * var(--row-height));
+  min-width: 0;
+  max-width: 100%;
+}
+
+.photo-preview {
+  display: block;
+  cursor: zoom-in;
+  background: var(--tint);
+  box-shadow: 0 0 0 1px var(--line);
+}
+
+.photo-preview:hover { box-shadow: 0 0 0 2px var(--accent); }
+.photo-preview img { width: 100%; height: auto; }
+
+.photo figcaption {
+  margin-top: .55rem;
+  font-size: .85rem;
+  overflow-wrap: anywhere;
+}
+
+.photo-meta { color: var(--muted); }
+.photo-viewer-open { overflow: hidden; }
+
+.photo-lightbox {
+  width: min(calc(100% - 1.5rem), 75rem);
+  max-width: none;
+  max-height: calc(100vh - 1.5rem);
+  max-height: calc(100dvh - 1.5rem);
+  padding: 0;
+  border: 1px solid #70849e;
+  background: #131c2a;
+  color: var(--surface);
+  overflow: auto;
+}
+
+.photo-lightbox::backdrop { background: rgb(11 18 32 / .88); }
+.photo-viewer { padding: clamp(.65rem, 2vw, 1.3rem); }
+
+.photo-viewer-header, .photo-viewer-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .75rem;
+}
+
+.photo-viewer-header { margin-bottom: .65rem; }
+.photo-viewer-navigation { margin-top: .65rem; }
+
+.photo-position {
+  color: #cad7eb;
+  font-size: .88rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.photo-control {
+  display: inline-flex;
+  align-items: center;
+  gap: .45rem;
+  min-height: 2.75rem;
+  padding: .35rem .75rem;
+  border: 1px solid #70849e;
+  background: transparent;
+  color: inherit;
+  font: 600 .875rem var(--sans);
+  cursor: pointer;
+}
+
+.photo-control:hover { background: #263750; }
+.photo-control span { font-size: 1.15em; }
+
+.photo-stage {
+  display: grid;
+  min-height: min(24vh, 10rem);
+  place-items: center;
+  background: #0b1220;
+}
+
+.photo-stage img {
+  width: auto;
+  max-width: 100%;
+  max-height: 72vh;
+  max-height: 72dvh;
+  object-fit: contain;
+}
+
+.photo-caption { margin-top: .5rem; font-size: .88rem; white-space: pre-line; }
+
+@media (prefers-reduced-motion: no-preference) {
+  .photo-preview { transition: box-shadow .18s ease; }
+}
+
+@media (max-width: 34rem) {
+  .photo-grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: 1rem; }
+  .photo-grid::after { display: none; }
+}

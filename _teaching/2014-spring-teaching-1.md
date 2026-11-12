@@ -1,5 +1,9 @@
 ---
-title: "Teaching experience 1"
+layout: archived-example
+title: Archived template example
+archived: true
+sitemap: false
+noindex: true
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2014-spring-teaching-1

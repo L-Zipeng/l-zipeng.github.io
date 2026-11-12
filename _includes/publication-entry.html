@@ -1,0 +1,9 @@
+{% assign entry = include.paper %}
+<li class="publication-entry">
+  <time class="publication-year" datetime="{{ entry.citation_date | slice: 0, 4 }}">{{ entry.citation_date | slice: 0, 4 }}</time>
+  <article>
+    <h3><a class="publication-title" href="{{ entry.url | relative_url }}">{{ entry.title | escape }}</a></h3>
+    {% include publication-meta.html paper=entry %}
+    {% include publication-links.html paper=entry %}
+  </article>
+</li>

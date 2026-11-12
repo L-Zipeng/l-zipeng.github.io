@@ -1,0 +1,70 @@
+themes:
+  - id: energy-models
+    short_title: Energy system scenarios
+    title: How energy models represent low-carbon fuels
+    summary: Comparing how integrated assessment and energy system models represent fuels in net-zero scenarios.
+    question: How do model definitions and assumptions shape the role of low-carbon fuels in net-zero scenarios?
+    methods: >-
+      We compared how integrated assessment models and energy system models represent hydrogen, synthetic fuels, biofuels, and electrification. The review examined fuel categories, feedstocks, carbon sources, sectoral detail, and life-cycle emissions, then compared selected IPCC Sixth Assessment Report scenarios.
+    findings: >-
+      Across 405 vetted scenarios from seven integrated assessment models, electricity typically accounted for **30–60% of final energy in 2050** across most models in climate categories C1–C3. Several models projected hydrogen shares of **6–8%** in those categories. Liquid bioenergy shares varied considerably by model. These scenario results support clearer reporting of production pathways, carbon accounting, and life-cycle impacts.
+    publication: 10.1016/j.rser.2025.115608
+  - id: fuel-costs
+    short_title: Fuel costs and supply
+    title: Global production and delivery costs
+    summary: Assessing how resources, technology learning, financing, and transport shape fuel costs across regions.
+    question: Where could different production pathways become competitive, and how does delivery change the ranking?
+    methods: >-
+      We compared 21 low-carbon fuel pathways across 151 countries under a 2024 reference case and scenarios for 2030 and 2050. The assessment combines regional resources and feedstocks with technology learning, country- and technology-specific financing, and Monte Carlo uncertainty analysis. The delivery model compares pipeline, rail, truck, and shipping routes to Basel.
+    findings: >-
+      Under the 2050 1.5 °C scenario, modeled production costs in favorable locations reached **€0.07–0.10 per kWh of grid-connected green hydrogen** (€2.3–3.3 per kg H₂). The lowest-cost Fischer–Tropsch kerosene cases reached **€0.15–0.18 per kWh**. Values are in 2024 euros. Under an integrated European pipeline scenario, nearer suppliers could deliver hydrogen more cheaply to Basel.
+    publication: 10.1039/D5EE05591A
+  - id: power-to-liquid
+    short_title: Power-to-liquid impacts
+    title: Cost and environmental trade-offs of power-to-liquid fuels
+    summary: Combining hourly plant optimization with prospective life-cycle assessment of methanol and synthetic kerosene.
+    question: Under which electricity and regional conditions can cost-optimized synthetic fuels reduce life-cycle emissions?
+    methods: >-
+      We assessed power-to-methanol, methanol-to-jet kerosene, and Fischer–Tropsch kerosene using electrolytic hydrogen and CO₂ captured from air. A mixed-integer optimization model sizes equipment and schedules its operation across 8,760 hours. It compares grid-connected, off-grid, and two hybrid configurations. Prospective life-cycle assessment combines plant operation and equipment inventories with scenario-dependent ecoinvent data prepared using premise.
+    findings: >-
+      Low-cost production and low life-cycle emissions often occurred in different places. In grid-connected cases with 2025 electricity demand, methanol-to-jet and Fischer–Tropsch kerosene reached the fossil jet-fuel life-cycle benchmark at about **0.08** and **0.13 kg CO₂e per kWh of grid electricity**, respectively. The thresholds depend on the route, year, and model assumptions. Upstream materials and equipment can still contribute to toxicity and resource-use impacts.
+    publication: 10.1016/j.enconman.2026.122177
+    figures:
+      - image: /images/research/ptl-grid-emissions.webp
+        width: 1492
+        height: 721
+        alt: "Line chart comparing synthetic kerosene emissions with grid electricity intensity for methanol-to-jet and Fischer–Tropsch routes in 2025 and 2050."
+        caption: "Grid electricity and synthetic kerosene. The horizontal lines show the fossil jet-fuel benchmark and a 60% reduction target."
+        original: Figure 4b
+      - image: /images/research/ft-saf-cost-and-emissions.webp
+        width: 1471
+        height: 1453
+        alt: "Cost and greenhouse gas contributions for Fischer–Tropsch synthetic aviation fuel at ten sites with four electricity supply configurations."
+        caption: "Fischer–Tropsch fuel production costs in 2025 and 2050, with a breakdown of 2025 life-cycle greenhouse gas emissions. Compare the cost and emissions axes separately."
+        original: Figure 3
+projects:
+  - id: sheltered
+    title: Sustainable transport fuels for Switzerland
+    summary: Technology assessment and fuel supply routes for the Swiss Federal Office of Energy’s SHELTERED project.
+    description: >-
+      I contributed technology specifications, prospective cost modeling, and an assessment of fuel supply routes. The project examined the role of chemical transport fuels in future Swiss energy supply.
+    resource: sheltered-report
+  - id: plastic-releases
+    title: Plastic flows and releases
+    summary: Probabilistic material flow analysis and historical estimates of macroplastic and microplastic releases in Switzerland.
+    description: >-
+      At Empa I used probabilistic material flow analysis to estimate flows and releases for five commodity plastics. In a later study, we modeled seven polymers in Switzerland from 1950 to 2022 across 35 product categories and 183 release pathways. The estimated cumulative releases were 27 ± 1 kg per person for macroplastics and 4 ± 1 kg per person for microplastics.
+    publication: 10.1016/j.resconrec.2024.108011
+resources:
+  - id: sheltered-report
+    title: "SHELTERED. Sustainable chemical transport fuels and their role in future Swiss energy supply"
+    authors: Christian Bauer (ed.), Martin Densing, Zipeng Liu, Evangelos Panos, Kannan Ramachandran, Meixi Zhang
+    venue: Swiss Federal Office of Energy
+    date: 21 April 2026
+    url: https://www.aramis.admin.ch/Dokument.aspx?DocumentID=74972
+  - id: eth-energy-blog
+    title: Low-Carbon Fuels Need a Map, Not Just a Mandate
+    authors: Zipeng Liu
+    venue: Energy Blog @ ETH Zurich
+    date: 29 June 2026
+    url: https://energyblog.ethz.ch/low-carbon-fuels-map/

@@ -1,0 +1,74 @@
+# Photos are grouped in order by category. Captions are optional.
+photos:
+  - image: /images/life/above-the-valley.webp
+    width: 1920
+    height: 1440
+    alt: "A hiker with a backpack sits on a grassy slope above a valley and a jagged ridge."
+    thumbnails:
+      - { path: /images/life/above-the-valley-480.webp, width: 480 }
+      - { path: /images/life/above-the-valley-900.webp, width: 900 }
+    category: Outdoors
+    caption: "A break above the valley."
+  - image: /images/life/paddleboard.webp
+    width: 1440
+    height: 1920
+    alt: "A person kneels on a paddleboard on turquoise water between mountains."
+    thumbnails:
+      - { path: /images/life/paddleboard-480.webp, width: 480 }
+      - { path: /images/life/paddleboard-900.webp, width: 900 }
+    category: Outdoors
+    caption: "Out on the water."
+  - image: /images/life/helmet-and-rope.webp
+    width: 1440
+    height: 1920
+    alt: "A person in a blue helmet holds a bright rope while standing among mossy rocks."
+    thumbnails:
+      - { path: /images/life/helmet-and-rope-480.webp, width: 480 }
+      - { path: /images/life/helmet-and-rope-900.webp, width: 900 }
+    category: Outdoors
+    caption: "Helmet on, rope in hand."
+  - image: /images/life/horseback-at-the-water.webp
+    width: 1920
+    height: 1440
+    alt: "A rider on a dark horse pauses at the edge of a lake backed by mountains."
+    thumbnails:
+      - { path: /images/life/horseback-at-the-water-480.webp, width: 480 }
+      - { path: /images/life/horseback-at-the-water-900.webp, width: 900 }
+    category: Along the way
+    caption: "On horseback at the water’s edge."
+  - image: /images/life/dogs-in-the-snow.webp
+    width: 1920
+    height: 1440
+    alt: "A person in a knit hat crouches beside two dogs in a snowy field."
+    thumbnails:
+      - { path: /images/life/dogs-in-the-snow-480.webp, width: 480 }
+      - { path: /images/life/dogs-in-the-snow-900.webp, width: 900 }
+    category: Along the way
+    caption: "Two dogs in the snow."
+  - image: /images/life/city-after-dark.webp
+    width: 1920
+    height: 1440
+    alt: "A person leans against a railing overlooking an illuminated skyline at night."
+    thumbnails:
+      - { path: /images/life/city-after-dark-480.webp, width: 480 }
+      - { path: /images/life/city-after-dark-900.webp, width: 900 }
+    category: Along the way
+    caption: "The city after dark."
+  - image: /images/life/coffee-break.webp
+    width: 1920
+    height: 1440
+    alt: "A person sits at a café table with a small glass of coffee and a glass of water."
+    thumbnails:
+      - { path: /images/life/coffee-break-480.webp, width: 480 }
+      - { path: /images/life/coffee-break-900.webp, width: 900 }
+    category: Small moments
+    caption: "A pause for coffee."
+  - image: /images/life/read-more-books.webp
+    width: 1440
+    height: 1920
+    alt: "A person sits beside a handwritten sign that repeats “I want to read more books.”"
+    thumbnails:
+      - { path: /images/life/read-more-books-480.webp, width: 480 }
+      - { path: /images/life/read-more-books-900.webp, width: 900 }
+    category: Small moments
+    caption: "A reminder to read more books."

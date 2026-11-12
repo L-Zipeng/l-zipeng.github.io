@@ -1,0 +1,14 @@
+---
+layout: academic
+---
+<article class="shell">
+  <header class="page-heading paper-heading">
+    <a class="text-link back-link" href="{{ '/publications/' | relative_url }}"><span aria-hidden="true">←</span> All publications</a>
+    <h1>{{ page.title | escape }}</h1>
+    {% include publication-meta.html paper=page show_year=true %}
+    {% include publication-links.html paper=page %}
+  </header>
+  <div class="page-content prose">
+    {{ content }}
+  </div>
+</article>

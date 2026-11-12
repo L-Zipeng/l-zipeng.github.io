@@ -1,69 +1,66 @@
 ---
-layout: archive
-title: "CV"
+layout: academic-page
+title: CV
 permalink: /cv/
-author_profile: true
 redirect_from:
   - /resume
+education:
+  - title: Doctoral research
+    organization: ETH Zurich and Paul Scherrer Institute
+    dates: Began March 2022
+    detail: "Research topic: sustainability assessment of low-carbon fuels toward net-zero emissions."
+  - title: MSc, Environmental Sciences
+    organization: ETH Zurich
+    dates: September 2019 – February 2022
+    detail: Major in biogeochemistry and pollutant dynamics. Minor in global change and sustainability.
+  - title: BSc, Environmental Sciences
+    organization: Tongji University
+    dates: September 2015 – July 2019
+    detail: Minor in sustainable development.
+experience:
+  - title: Doctoral researcher
+    organization: Chair of Energy System Analysis, ETH Zurich · Technology Assessment Group, PSI
+    dates: Doctoral work begun in 2022
+    detail: Reviewed how models represent low-carbon fuels, developed prospective cost and hydrogen delivery models, and combined hourly plant optimization with life-cycle assessment. Contributed to the SHELTERED project.
+  - title: Research assistant and master’s research placement
+    organization: Technology and Society Laboratory, Empa
+    dates: 2020–2021
+    detail: Developed probabilistic and dynamic material flow models for plastics. Harmonized input data and applied Monte Carlo simulation to assess parameter uncertainty.
+  - title: Science-policy intern
+    organization: UN Environment Programme, Nairobi
+    dates: 2019
+    detail: Supported stakeholder preparations, briefings, and event coordination for the fourth UN Environment Assembly.
+skills:
+  - title: Energy and technology assessment
+    detail: Techno-economic assessment, scenario analysis, hydrogen logistics, Power-to-X, and hourly mixed-integer optimization with Python and Gurobi.
+  - title: Environmental assessment
+    detail: Prospective life-cycle assessment, life-cycle inventories, probabilistic and dynamic material flow analysis, and uncertainty and sensitivity analysis.
+  - title: Software and data
+    detail: Python, R, SQL, Brightway, premise, ecoinvent, Activity Browser, SimaPro, ArcGIS, MATLAB, Git, and Jupyter. SHAP for model interpretation.
+  - title: Languages
+    detail: Chinese (native), English (C1), German (basic).
 ---
 
-{% include base_path %}
+<div class="page-content cv-content">
+  {% include cv-timeline.html title="Education" id="education" entries=page.education %}
+  {% include cv-timeline.html title="Research and professional experience" id="experience" entries=page.experience %}
+  <section class="cv-section" aria-labelledby="skills">
+    <h2 class="subsection-heading" id="skills">Technical competencies</h2>
+    <dl class="cv-skills">
+      {% for skill in page.skills %}
+        <div>
+          <dt>{{ skill.title | escape }}</dt>
+          <dd>{{ skill.detail | escape }}</dd>
+        </div>
+      {% endfor %}
+    </dl>
+  </section>
+  <section class="cv-section prose" aria-labelledby="recognition" markdown="1">
+## Teaching, supervision, and recognition
+{: #recognition .subsection-heading }
 
-
-Education
-======
-* **Ph.D. student, Paul Scherrer Institute and Eidgenössische Technische Hochschule Zürich (ETH Zürich)**
-  <br>Zürich, Switzerland, Mar 2022 - present
-* **M.Sc. in Environmental Sciences, Eidgenössische Technische Hochschule Zürich (ETH Zürich)**
-  <br>Zürich, Switzerland, Sep 2019 - Feb 2022 
-* **B.Sc. in Environmental Sciences, Tongji University**
-  <br>Shanghai, China, May 2015 - Aug 2019<br>
-
-
-Professional Experience
-======
-* Guest Student (May - Jul 2020); Internship (Aug 2020 - Jan 2021) <br>**Empa – Swiss Federal Laboratories for Materials Science and Technology, Technology and Society Laboratory, St Gallen, Switzerland**
-  * Collected data for complete life cycle analysis, including emission pathways for five polymers in Switzerland and Europe.
-  * Performed a probabilistic material flow analysis and emission model for five polymers as macro and microplastic to 11 environmental sinks based on R using Monte    Carlo simulation and Bayesian distribution.
-  * Established a polymer-specific dynamic release model based on material flow analysis using Python and SQL.
-* INTERN – SCIENCE POLICY INTERFACE (Feb - Mar 2019) <br>**UN Environment (UNEP), Science Division Secretariat team, Nairobi, Kenya**
-  * Assisted with compilation of the comprehensive database for the 2019 Science Policy Business Forum.
-  * Maintained material preparation, reception, on-site organization and other duties of several meetings duringthe UN Environment Assembly 4.
-* Manager Assistant (Sep 2016 - Aug 2018)<br> **UN Environment-Tongji Institute of Environment for Sustainable Development (IESD), Shanghai, China**
-  * Assisted IESD manager on a wide range of tasks. Main responsibilities include organization of international events, the management and update of website, writing and translation of various literature.
-  *  Acted as the organizer of a number of 200+ attendee events including the Fourth Forum on Urban Ecology and Energy Conservation in 2017; Asia Pacific Leadership Programme on Environment and Sustainable Development (APLP) in 2016 and 2017, etc.
-  *  Responsible for training material preparation, correspondence, meeting invitation, PR work, content and agenda preparation, compiled and edited proceedings, translated content, and managed volunteers.<br>
-
-
-Honours, competitions & awards
-=====
- * 2019 - 2021, Masters Scholarship Programme, ETH Zurich
- * 2019, Excellent Graduate of Tongji University, Recipient
- * 2019, Tongji University, Excellent Graduation Thesis Award of College of Env Sci & Eng
- * 2018, Telefonaktiebolaget LM Ericsson, Ericsson Innovation Awards (EIA), Global 4th prize and Employees Popular Project Prize (out of 1444 entries)
- * 2018, Consortium for Mathematics and Its Applications (COMAP), The Interdisciplinary Contest In Modelling (ICM), Meritorious Winner
-   *  As the key-member of 3-person team, designed and developed a novel model using back propagation (BP)-neural network and principal component analysis (PCA) to assess   country level vulnerability through an index made by 24 impact indicators and predict how the climate change would affect these indicators.
- * 2018, full scholarship for Technion International (Israel Institute of Technology), Summer School of Engineering & Science Program, Haifa, Israel
- * 2017, Tongji University, Guo Xiebirong Enterprise Scholarship
- * 2016, Tongji University, Outstanding Student Award, Recipient<br>
-
-
-Skills & interests
-======
-* Software:<br>
-  Production: Microsoft Office, Adobe Premiere, Adobe Illustrator, AutoCAD<br>
-  Analysis: MATLAB, SPSS, ArcGIS, Power BI, Brightway<br>
-  Programming: Python (1 year), C# (2 years), R (1 year)
-* Languages:<br>
-  Native in Chinese<br>
-  Fluent in English (CET6, IELTS 7.0)<br>
-  Basic knowledge of German (A2)
-* Interests:<br>
-  Traditional Chinese Painting (Grade-7, qualified by Chinese Academy of Art),<br>
-  Taekwondo (Red Belt, WTF2),<br>
-  Badminton, Hiking, Billiards<br>
-
-  
-[//]: # (Talks)
-
-[//]: # (======)
+- Teaching assistant, ETH Zurich’s *Aviation II*, 2025.
+- Co-supervised an MSc thesis on the techno-economic assessment of Power-to-X fuels in Switzerland at PSI, 2023.
+- ETH Zurich Master’s Scholarship Programme, 2019–2021. Tongji University Excellent Graduate and College Graduation Thesis awards, 2019.
+  </section>
+</div>

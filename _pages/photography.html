@@ -1,0 +1,21 @@
+---
+layout: academic-page
+title: Photography
+permalink: /photography/
+description: A photography portfolio by Zipeng Liu.
+stylesheets:
+  - /assets/css/photography.css
+script: /assets/js/photography.js
+---
+
+{% assign photos = site.data.photography.photos %}
+<div class="page-content photo-grid" data-photo-gallery>
+  {% for photo in photos %}
+    {% assign ratio = photo.width | times: 1.0 | divided_by: photo.height %}
+    {% assign desktop_width = ratio | times: 275 | round %}
+    {% capture sizes %}(max-width: 34rem) calc(100vw - 2.5rem), min(55vw, {{ desktop_width }}px){% endcapture %}
+    {% include photo-figure.html photo=photo sizes=sizes priority=forloop.first ratio=ratio %}
+  {% endfor %}
+</div>
+
+{% include photo-viewer.html count=photos.size %}

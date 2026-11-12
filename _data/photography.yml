@@ -1,0 +1,415 @@
+# Entries are displayed in this order. Optional fields: caption, location, date, category.
+photos:
+  - image: /images/photography/ice-cave.webp
+    width: 1920
+    height: 1280
+    alt: "Blue ice arches over a small figure at a bright cave opening."
+    thumbnails:
+      - { path: /images/photography/ice-cave-480.webp, width: 480 }
+      - { path: /images/photography/ice-cave-900.webp, width: 900 }
+  - image: /images/photography/mountaintop-pavilion.webp
+    width: 1920
+    height: 1280
+    alt: "An ornate pavilion catches warm light on a steep rocky summit."
+    thumbnails:
+      - { path: /images/photography/mountaintop-pavilion-480.webp, width: 480 }
+      - { path: /images/photography/mountaintop-pavilion-900.webp, width: 900 }
+  - image: /images/photography/trees-in-fog.webp
+    width: 1920
+    height: 1440
+    alt: "Gnarled trees stand on a grassy slope in thick fog."
+    thumbnails:
+      - { path: /images/photography/trees-in-fog-480.webp, width: 480 }
+      - { path: /images/photography/trees-in-fog-900.webp, width: 900 }
+  - image: /images/photography/red-train-on-viaduct.webp
+    width: 1440
+    height: 1920
+    alt: "A red train crosses a stone viaduct above a wooded ravine."
+    thumbnails:
+      - { path: /images/photography/red-train-on-viaduct-480.webp, width: 480 }
+      - { path: /images/photography/red-train-on-viaduct-900.webp, width: 900 }
+  - image: /images/photography/sailboat-and-mountains.webp
+    width: 1920
+    height: 1440
+    alt: "A white sailboat crosses blue water with snow-capped mountains beyond."
+    thumbnails:
+      - { path: /images/photography/sailboat-and-mountains-480.webp, width: 480 }
+      - { path: /images/photography/sailboat-and-mountains-900.webp, width: 900 }
+  - image: /images/photography/flowers-above-a-valley.webp
+    width: 1920
+    height: 1280
+    alt: "Pale flowers line a steep grassy slope above a hazy mountain valley."
+    thumbnails:
+      - { path: /images/photography/flowers-above-a-valley-480.webp, width: 480 }
+      - { path: /images/photography/flowers-above-a-valley-900.webp, width: 900 }
+  - image: /images/photography/peak-and-pool.webp
+    width: 1280
+    height: 1920
+    alt: "A snowy peak rises beyond a small pool and a grassy foreground."
+    thumbnails:
+      - { path: /images/photography/peak-and-pool-480.webp, width: 480 }
+      - { path: /images/photography/peak-and-pool-900.webp, width: 900 }
+  - image: /images/photography/evening-reflection.webp
+    width: 1920
+    height: 1280
+    alt: "A sunlit mountain ridge reflects in a lake framed by dark trees."
+    thumbnails:
+      - { path: /images/photography/evening-reflection-480.webp, width: 480 }
+      - { path: /images/photography/evening-reflection-900.webp, width: 900 }
+  - image: /images/photography/village-below-the-peaks.webp
+    width: 1920
+    height: 1440
+    alt: "A cluster of buildings sits in a green valley beneath snowy peaks and dark clouds."
+    thumbnails:
+      - { path: /images/photography/village-below-the-peaks-480.webp, width: 480 }
+      - { path: /images/photography/village-below-the-peaks-900.webp, width: 900 }
+  - image: /images/photography/light-on-snow.webp
+    width: 1920
+    height: 1280
+    alt: "Sunlight breaks through clouds over smooth snow slopes dotted with trees."
+    thumbnails:
+      - { path: /images/photography/light-on-snow-480.webp, width: 480 }
+      - { path: /images/photography/light-on-snow-900.webp, width: 900 }
+  - image: /images/photography/station-in-autumn.webp
+    width: 1920
+    height: 1280
+    alt: "People wait on a railway platform beneath golden autumn trees."
+    thumbnails:
+      - { path: /images/photography/station-in-autumn-480.webp, width: 480 }
+      - { path: /images/photography/station-in-autumn-900.webp, width: 900 }
+  - image: /images/photography/lake-under-low-cloud.webp
+    width: 1920
+    height: 1036
+    alt: "A dark lake lies beneath a wooded slope and a snow-dusted ridge under low clouds."
+    thumbnails:
+      - { path: /images/photography/lake-under-low-cloud-480.webp, width: 480 }
+      - { path: /images/photography/lake-under-low-cloud-900.webp, width: 900 }
+  - image: /images/photography/sea-stacks-in-spray.webp
+    width: 1920
+    height: 1280
+    alt: "Spray and pale light surround dark sea stacks beside a snowy shore."
+    thumbnails:
+      - { path: /images/photography/sea-stacks-in-spray-480.webp, width: 480 }
+      - { path: /images/photography/sea-stacks-in-spray-900.webp, width: 900 }
+  - image: /images/photography/rough-blue-water.webp
+    width: 1920
+    height: 1297
+    alt: "Blue waves rise beneath a dark bank of clouds."
+    thumbnails:
+      - { path: /images/photography/rough-blue-water-480.webp, width: 480 }
+      - { path: /images/photography/rough-blue-water-900.webp, width: 900 }
+  - image: /images/photography/birds-over-open-water.webp
+    width: 1920
+    height: 1280
+    alt: "A dispersed flock of birds crosses the sky above a blue horizon."
+    thumbnails:
+      - { path: /images/photography/birds-over-open-water-480.webp, width: 480 }
+      - { path: /images/photography/birds-over-open-water-900.webp, width: 900 }
+  - image: /images/photography/blue-haze.webp
+    width: 1920
+    height: 1280
+    alt: "A small pointed silhouette stands against blue haze and a white foreground."
+    thumbnails:
+      - { path: /images/photography/blue-haze-480.webp, width: 480 }
+      - { path: /images/photography/blue-haze-900.webp, width: 900 }
+  - image: /images/photography/coastal-wildflowers.webp
+    width: 1920
+    height: 1280
+    alt: "Small flowers grow among rocks beside turquoise water."
+    thumbnails:
+      - { path: /images/photography/coastal-wildflowers-480.webp, width: 480 }
+      - { path: /images/photography/coastal-wildflowers-900.webp, width: 900 }
+  - image: /images/photography/boat-on-still-water.webp
+    width: 1620
+    height: 1080
+    alt: "A small boat leaves a faint wake under a pastel sky."
+    thumbnails:
+      - { path: /images/photography/boat-on-still-water-480.webp, width: 480 }
+      - { path: /images/photography/boat-on-still-water-900.webp, width: 900 }
+  - image: /images/photography/ridge-in-fog.webp
+    width: 1920
+    height: 1440
+    alt: "A steep rocky ridge emerges from blue-gray fog."
+    thumbnails:
+      - { path: /images/photography/ridge-in-fog-480.webp, width: 480 }
+      - { path: /images/photography/ridge-in-fog-900.webp, width: 900 }
+  - image: /images/photography/above-the-clouds.webp
+    width: 1920
+    height: 1280
+    alt: "A mountain skyline separates low clouds from a deep blue twilight sky."
+    thumbnails:
+      - { path: /images/photography/above-the-clouds-480.webp, width: 480 }
+      - { path: /images/photography/above-the-clouds-900.webp, width: 900 }
+  - image: /images/photography/cloud-filled-valley.webp
+    width: 1280
+    height: 1920
+    alt: "Clouds fill the valley between dark slopes and distant snowy ridges."
+    thumbnails:
+      - { path: /images/photography/cloud-filled-valley-480.webp, width: 480 }
+      - { path: /images/photography/cloud-filled-valley-900.webp, width: 900 }
+  - image: /images/photography/layered-ridges.webp
+    width: 1920
+    height: 1280
+    alt: "Mountain silhouettes fade into the distance beneath an orange sky."
+    thumbnails:
+      - { path: /images/photography/layered-ridges-480.webp, width: 480 }
+      - { path: /images/photography/layered-ridges-900.webp, width: 900 }
+  - image: /images/photography/sun-at-the-ridgeline.webp
+    width: 1920
+    height: 1280
+    alt: "The sun touches the horizon behind layers of dark mountains."
+    thumbnails:
+      - { path: /images/photography/sun-at-the-ridgeline-480.webp, width: 480 }
+      - { path: /images/photography/sun-at-the-ridgeline-900.webp, width: 900 }
+  - image: /images/photography/snowy-range.webp
+    width: 1920
+    height: 1280
+    alt: "Jagged snow-covered peaks rise above a broad, bare foreground."
+    thumbnails:
+      - { path: /images/photography/snowy-range-480.webp, width: 480 }
+      - { path: /images/photography/snowy-range-900.webp, width: 900 }
+  - image: /images/photography/snow-covered-massif.webp
+    width: 1920
+    height: 1440
+    alt: "A broad snow-covered mountain rises above a flat green plain."
+    thumbnails:
+      - { path: /images/photography/snow-covered-massif-480.webp, width: 480 }
+      - { path: /images/photography/snow-covered-massif-900.webp, width: 900 }
+  - image: /images/photography/glacier-and-rock.webp
+    width: 1920
+    height: 1440
+    alt: "A fractured glacier fills a rocky basin beneath snow-covered peaks."
+    thumbnails:
+      - { path: /images/photography/glacier-and-rock-480.webp, width: 480 }
+      - { path: /images/photography/glacier-and-rock-900.webp, width: 900 }
+  - image: /images/photography/glacial-valley.webp
+    width: 1920
+    height: 1440
+    alt: "A broad glacier meets pale water between steep, rocky slopes."
+    thumbnails:
+      - { path: /images/photography/glacial-valley-480.webp, width: 480 }
+      - { path: /images/photography/glacial-valley-900.webp, width: 900 }
+  - image: /images/photography/figure-in-a-rocky-basin.webp
+    width: 1920
+    height: 1080
+    alt: "A seated figure looks toward jagged peaks from a broad rocky basin."
+    thumbnails:
+      - { path: /images/photography/figure-in-a-rocky-basin-480.webp, width: 480 }
+      - { path: /images/photography/figure-in-a-rocky-basin-900.webp, width: 900 }
+  - image: /images/photography/line-across-snow.webp
+    width: 1920
+    height: 1080
+    alt: "A thin dark line crosses a pale snowfield."
+    thumbnails:
+      - { path: /images/photography/line-across-snow-480.webp, width: 480 }
+      - { path: /images/photography/line-across-snow-900.webp, width: 900 }
+  - image: /images/photography/winding-river.webp
+    width: 1920
+    height: 1280
+    alt: "A winding river crosses a green plain below distant mountains."
+    thumbnails:
+      - { path: /images/photography/winding-river-480.webp, width: 480 }
+      - { path: /images/photography/winding-river-900.webp, width: 900 }
+  - image: /images/photography/hillside-above-the-water.webp
+    width: 1280
+    height: 1920
+    alt: "Two figures sit in a green meadow overlooking a town and a lake."
+    thumbnails:
+      - { path: /images/photography/hillside-above-the-water-480.webp, width: 480 }
+      - { path: /images/photography/hillside-above-the-water-900.webp, width: 900 }
+  - image: /images/photography/path-toward-the-peaks.webp
+    width: 1440
+    height: 1920
+    alt: "A shaded path and trees frame a view toward distant mountains."
+    thumbnails:
+      - { path: /images/photography/path-toward-the-peaks-480.webp, width: 480 }
+      - { path: /images/photography/path-toward-the-peaks-900.webp, width: 900 }
+  - image: /images/photography/crossing-the-stream.webp
+    width: 1280
+    height: 1920
+    alt: "Two figures cross a narrow stream with a mountain slope behind them."
+    thumbnails:
+      - { path: /images/photography/crossing-the-stream-480.webp, width: 480 }
+      - { path: /images/photography/crossing-the-stream-900.webp, width: 900 }
+  - image: /images/photography/moon-over-a-valley.webp
+    width: 1280
+    height: 1920
+    alt: "The moon hangs above a mountain valley and reflects in a dark pool."
+    thumbnails:
+      - { path: /images/photography/moon-over-a-valley-480.webp, width: 480 }
+      - { path: /images/photography/moon-over-a-valley-900.webp, width: 900 }
+  - image: /images/photography/figures-at-dusk.webp
+    width: 1280
+    height: 1920
+    alt: "A few figures stand in a dim field beneath a dark mountain slope."
+    thumbnails:
+      - { path: /images/photography/figures-at-dusk-480.webp, width: 480 }
+      - { path: /images/photography/figures-at-dusk-900.webp, width: 900 }
+  - image: /images/photography/streak-across-the-night-sky.webp
+    width: 1280
+    height: 1920
+    alt: "A faint diagonal streak crosses a starry sky beside a tree silhouette."
+    thumbnails:
+      - { path: /images/photography/streak-across-the-night-sky-480.webp, width: 480 }
+      - { path: /images/photography/streak-across-the-night-sky-900.webp, width: 900 }
+  - image: /images/photography/sparks-at-night.webp
+    width: 1920
+    height: 1440
+    alt: "Bright sparks scatter above two silhouetted figures at night."
+    thumbnails:
+      - { path: /images/photography/sparks-at-night-480.webp, width: 480 }
+      - { path: /images/photography/sparks-at-night-900.webp, width: 900 }
+  - image: /images/photography/pavilion-at-night.webp
+    width: 1920
+    height: 1440
+    alt: "A golden pavilion and its stairway are illuminated against a black sky."
+    thumbnails:
+      - { path: /images/photography/pavilion-at-night-480.webp, width: 480 }
+      - { path: /images/photography/pavilion-at-night-900.webp, width: 900 }
+  - image: /images/photography/town-beneath-storm-clouds.webp
+    width: 1920
+    height: 1280
+    alt: "A church tower rises above a dark town and a mountain skyline."
+    thumbnails:
+      - { path: /images/photography/town-beneath-storm-clouds-480.webp, width: 480 }
+      - { path: /images/photography/town-beneath-storm-clouds-900.webp, width: 900 }
+  - image: /images/photography/lightning-over-the-city.webp
+    width: 1920
+    height: 1440
+    alt: "Lightning branches over city rooftops beside a tall fountain."
+    thumbnails:
+      - { path: /images/photography/lightning-over-the-city-480.webp, width: 480 }
+      - { path: /images/photography/lightning-over-the-city-900.webp, width: 900 }
+  - image: /images/photography/golden-storm-light.webp
+    width: 1920
+    height: 1080
+    alt: "Golden light fills heavy clouds above a flat, cultivated field."
+    thumbnails:
+      - { path: /images/photography/golden-storm-light-480.webp, width: 480 }
+      - { path: /images/photography/golden-storm-light-900.webp, width: 900 }
+  - image: /images/photography/town-at-twilight.webp
+    width: 1920
+    height: 1440
+    alt: "A church spire rises above rooftops and trees beneath streaks of evening cloud."
+    thumbnails:
+      - { path: /images/photography/town-at-twilight-480.webp, width: 480 }
+      - { path: /images/photography/town-at-twilight-900.webp, width: 900 }
+  - image: /images/photography/city-through-haze.webp
+    width: 1920
+    height: 1440
+    alt: "Dense city blocks recede into haze beneath a pale, bright horizon."
+    thumbnails:
+      - { path: /images/photography/city-through-haze-480.webp, width: 480 }
+      - { path: /images/photography/city-through-haze-900.webp, width: 900 }
+  - image: /images/photography/pyramids-under-clouds.webp
+    width: 1920
+    height: 1440
+    alt: "Stone pyramids stand on a sandy plain under thick clouds."
+    thumbnails:
+      - { path: /images/photography/pyramids-under-clouds-480.webp, width: 480 }
+      - { path: /images/photography/pyramids-under-clouds-900.webp, width: 900 }
+  - image: /images/photography/carved-cliff.webp
+    width: 1920
+    height: 1440
+    alt: "Carved openings and stone figures cover a cliff behind a row of trees."
+    thumbnails:
+      - { path: /images/photography/carved-cliff-480.webp, width: 480 }
+      - { path: /images/photography/carved-cliff-900.webp, width: 900 }
+  - image: /images/photography/roofs-at-sunset.webp
+    width: 1920
+    height: 1280
+    alt: "Layered rooftops stretch across a city beneath a clear evening sky."
+    thumbnails:
+      - { path: /images/photography/roofs-at-sunset-480.webp, width: 480 }
+      - { path: /images/photography/roofs-at-sunset-900.webp, width: 900 }
+  - image: /images/photography/figures-and-stone-columns.webp
+    width: 1440
+    height: 1920
+    alt: "Sculpted figures sit among ornate columns in a dim interior."
+    thumbnails:
+      - { path: /images/photography/figures-and-stone-columns-480.webp, width: 480 }
+      - { path: /images/photography/figures-and-stone-columns-900.webp, width: 900 }
+  - image: /images/photography/view-through-an-arch.webp
+    width: 1280
+    height: 1920
+    alt: "A dark stone arch frames an open view of distant mountains."
+    thumbnails:
+      - { path: /images/photography/view-through-an-arch-480.webp, width: 480 }
+      - { path: /images/photography/view-through-an-arch-900.webp, width: 900 }
+  - image: /images/photography/shaded-passage.webp
+    width: 1280
+    height: 1920
+    alt: "A shaded stone passage leads toward a brighter courtyard."
+    thumbnails:
+      - { path: /images/photography/shaded-passage-480.webp, width: 480 }
+      - { path: /images/photography/shaded-passage-900.webp, width: 900 }
+  - image: /images/photography/statue-through-an-arch.webp
+    width: 1440
+    height: 1920
+    alt: "An arch frames a dark statue in a courtyard with plants."
+    thumbnails:
+      - { path: /images/photography/statue-through-an-arch-480.webp, width: 480 }
+      - { path: /images/photography/statue-through-an-arch-900.webp, width: 900 }
+  - image: /images/photography/hanging-sheets-in-sunlight.webp
+    width: 1920
+    height: 1280
+    alt: "Translucent sheets hang between wooden posts above a sunlit walkway."
+    thumbnails:
+      - { path: /images/photography/hanging-sheets-in-sunlight-480.webp, width: 480 }
+      - { path: /images/photography/hanging-sheets-in-sunlight-900.webp, width: 900 }
+  - image: /images/photography/projected-text.webp
+    width: 1920
+    height: 1440
+    alt: "Lines of German text appear over bands of color on a screen in a dark room."
+    thumbnails:
+      - { path: /images/photography/projected-text-480.webp, width: 480 }
+      - { path: /images/photography/projected-text-900.webp, width: 900 }
+  - image: /images/photography/square-and-palm-trees.webp
+    width: 1920
+    height: 1280
+    alt: "People cross an open square bordered by palms and a pale stone wall."
+    thumbnails:
+      - { path: /images/photography/square-and-palm-trees-480.webp, width: 480 }
+      - { path: /images/photography/square-and-palm-trees-900.webp, width: 900 }
+  - image: /images/photography/town-beyond-the-lawn.webp
+    width: 1280
+    height: 1920
+    alt: "Buildings and towers rise beyond a dark lawn under a pale evening sky."
+    thumbnails:
+      - { path: /images/photography/town-beyond-the-lawn-480.webp, width: 480 }
+      - { path: /images/photography/town-beyond-the-lawn-900.webp, width: 900 }
+  - image: /images/photography/market-stall.webp
+    width: 1440
+    height: 1920
+    alt: "A market stall is crowded with metal vessels and other wares."
+    thumbnails:
+      - { path: /images/photography/market-stall-480.webp, width: 480 }
+      - { path: /images/photography/market-stall-900.webp, width: 900 }
+  - image: /images/photography/animals-at-a-market.webp
+    width: 1440
+    height: 1920
+    alt: "People stand among dark-coated animals in a crowded market."
+    thumbnails:
+      - { path: /images/photography/animals-at-a-market-480.webp, width: 480 }
+      - { path: /images/photography/animals-at-a-market-900.webp, width: 900 }
+  - image: /images/photography/cart-by-a-wall.webp
+    width: 1920
+    height: 1280
+    alt: "A donkey and wooden cart stand beside a sunlit wall."
+    thumbnails:
+      - { path: /images/photography/cart-by-a-wall-480.webp, width: 480 }
+      - { path: /images/photography/cart-by-a-wall-900.webp, width: 900 }
+  - image: /images/photography/cat-on-the-roof.webp
+    width: 1920
+    height: 1280
+    alt: "A cat walks along a roof among sunlit buildings."
+    thumbnails:
+      - { path: /images/photography/cat-on-the-roof-480.webp, width: 480 }
+      - { path: /images/photography/cat-on-the-roof-900.webp, width: 900 }
+  - image: /images/photography/cat-on-a-chair.webp
+    width: 1920
+    height: 1280
+    alt: "A black-and-white cat curls up on a woven chair beside patterned tiles."
+    thumbnails:
+      - { path: /images/photography/cat-on-a-chair-480.webp, width: 480 }
+      - { path: /images/photography/cat-on-a-chair-900.webp, width: 900 }
