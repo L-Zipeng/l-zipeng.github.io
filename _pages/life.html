@@ -1,0 +1,43 @@
+---
+layout: academic
+title: Beyond Research
+permalink: /life/
+lead: A few moments from life outside research, from days in the mountains and on the water to a quiet coffee break.
+stylesheets:
+  - /assets/css/photography.css
+  - /assets/css/life.css
+script: /assets/js/photography.js
+---
+
+{% assign photos = site.data.life.photos %}
+{% assign chapters = photos | group_by: 'category' %}
+<div class="life-journal">
+  <div class="shell">
+    <header class="life-heading">
+      <h1>{{ page.title | escape }}</h1>
+      <p class="lead">{{ page.lead | escape }}</p>
+    </header>
+
+    <div class="life-chapters" data-photo-gallery>
+      {% for chapter in chapters %}
+        {% assign first_chapter = forloop.first %}
+        {% capture columns %}
+          {% for photo in chapter.items %}minmax(0, {{ photo.width | times: 1.0 | divided_by: photo.height }}fr) {% endfor %}
+        {% endcapture %}
+        <section class="life-chapter">
+          {% if chapter.name != empty %}<h2>{{ chapter.name | escape }}</h2>{% endif %}
+          <div class="life-photo-row{% if chapter.size <= 3 %} life-photo-row--weighted{% endif %}{% if chapter.size < 3 %} life-photo-row--short{% endif %}"{% if chapter.size <= 3 %} style="--life-columns: {{ columns | normalize_whitespace }}"{% endif %}>
+            {% for photo in chapter.items %}
+              {% assign priority = false %}
+              {% if first_chapter and forloop.first %}{% assign priority = true %}{% endif %}
+              {% capture sizes %}{% unless priority %}auto, {% endunless %}(max-width: 40rem) calc(100vw - 2.5rem), min(42vw, 34rem){% endcapture %}
+              {% include photo-figure.html photo=photo sizes=sizes priority=priority %}
+            {% endfor %}
+          </div>
+        </section>
+      {% endfor %}
+    </div>
+  </div>
+
+  {% include photo-viewer.html count=photos.size %}
+</div>

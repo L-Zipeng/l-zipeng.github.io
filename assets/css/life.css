@@ -1,0 +1,95 @@
+.life-heading {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(15rem, 21rem);
+  align-items: end;
+  gap: clamp(1.25rem, 3vw, 3rem);
+  padding-block: clamp(2.25rem, 5vw, 4.5rem) clamp(1.55rem, 3vw, 2.75rem);
+  border-bottom: 1px solid var(--line);
+}
+
+.life-heading h1 { text-wrap: initial; }
+
+.life-heading .lead {
+  max-width: 40ch;
+  font-size: 1.02rem;
+  line-height: 1.5;
+}
+
+.life-chapters { padding-block: clamp(1.35rem, 2.5vw, 2rem) var(--section-space); }
+
+.life-chapter + .life-chapter {
+  margin-top: clamp(2rem, 4vw, 3.5rem);
+  padding-top: clamp(1.35rem, 2.5vw, 2rem);
+  border-top: 1px solid var(--line);
+}
+
+.life-chapter h2 {
+  margin-bottom: clamp(.9rem, 1.6vw, 1.35rem);
+  font-size: clamp(1.35rem, 2.4vw, 1.95rem);
+}
+
+.life-photo-row {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(.85rem, 2vw, 1.5rem);
+  align-items: start;
+}
+
+.life-photo-row--weighted { grid-template-columns: var(--life-columns); }
+.life-photo-row--short { max-width: 54rem; }
+
+.life-photo-row figcaption {
+  margin-top: .55rem;
+  color: var(--muted);
+  font-size: .88rem;
+}
+
+.life-journal .photo-lightbox {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  max-height: none;
+  margin: 0;
+  border: 0;
+}
+
+.life-journal .photo-viewer {
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr);
+  gap: .65rem;
+  width: min(100%, 100rem);
+  height: 100%;
+  margin-inline: auto;
+  padding: max(.75rem, env(safe-area-inset-top)) max(.75rem, env(safe-area-inset-right))
+           max(.75rem, env(safe-area-inset-bottom)) max(.75rem, env(safe-area-inset-left));
+}
+
+.life-journal .photo-viewer-header,
+.life-journal .photo-viewer-navigation,
+.life-journal .photo-caption { margin: 0; }
+
+.life-journal .photo-stage {
+  grid-template: minmax(0, 1fr) / minmax(0, 1fr);
+  min-height: 0;
+}
+
+.life-journal .photo-stage img {
+  width: 100%;
+  height: 100%;
+  max-height: none;
+}
+
+.life-journal .photo-caption { text-align: center; }
+
+@media (max-width: 60rem) {
+  .life-heading { grid-template-columns: minmax(0, 1fr); gap: .85rem; }
+  .life-photo-row:not(.life-photo-row--weighted) { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 40rem) {
+  .life-photo-row, .life-photo-row:not(.life-photo-row--weighted) {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.4rem;
+  }
+}

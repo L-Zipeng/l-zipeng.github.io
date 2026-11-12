@@ -1,0 +1,10 @@
+---
+layout: academic
+---
+<div class="shell">
+  <header class="page-heading">
+    <h1>{{ page.title | escape }}</h1>
+    {% if page.lead %}<p class="lead">{{ page.lead | escape }}</p>{% endif %}
+  </header>
+  {{ content }}
+</div>

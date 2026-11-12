@@ -1,2 +1,7 @@
 _site/
-
+/_reference_private/
+.bundle/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+.DS_Store

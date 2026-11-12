@@ -1,0 +1,11 @@
+<ul class="profile-links" aria-label="Professional links">
+  <li><a href="{{ site.author.orcid | escape }}">ORCID <span aria-hidden="true">↗</span></a></li>
+  <li><a href="https://github.com/{{ site.author.github | escape }}">GitHub <span aria-hidden="true">↗</span></a></li>
+  <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin | escape }}/">LinkedIn <span aria-hidden="true">↗</span></a></li>
+  {% if include.institutions %}
+    <li><a href="{{ site.author.research_collection | escape }}">ETH Research Collection <span aria-hidden="true">↗</span></a></li>
+    <li><a href="{{ site.author.psi_profile | escape }}">PSI profile <span aria-hidden="true">↗</span></a></li>
+  {% else %}
+    <li><a href="{{ '/contact/' | relative_url }}">Contact <span aria-hidden="true">→</span></a></li>
+  {% endif %}
+</ul>

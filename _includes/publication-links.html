@@ -1,0 +1,6 @@
+<div class="publication-links">
+  <a href="https://doi.org/{{ include.paper.doi | escape }}">DOI <span class="doi-value">{{ include.paper.doi | escape }}</span><span aria-hidden="true"> ↗</span></a>
+  {% for link in include.paper.links %}
+    <a href="{{ link.url | escape }}">{{ link.title | escape }} <span aria-hidden="true">↗</span></a>
+  {% endfor %}
+</div>

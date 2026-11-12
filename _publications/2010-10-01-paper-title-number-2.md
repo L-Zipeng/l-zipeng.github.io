@@ -1,13 +1,18 @@
 ---
-title: "Ultrasensitive monitoring of DNA damage associated with free radicals exposure using dynamic carbon nanotubes bridged interdigitated electrode array"
-collection: publications
-permalink: https://doi.org/10.1016/j.envint.2020.105672
-excerpt: 'There are currently increasingly concerns over DNA damage related to free radicals due to their vital roles in human health, especially high-performance detection method. Herein, we report an ultra- sensitive monitoring of DNA damage associated with free radicals exposure using interdigitated electrode (IDE) array for the first time.'
-date: 2020-04-02
-venue: 'Environment International'
-paperurl: 'https://doi.org/10.1016/j.envint.2020.105672'
-citation: 'Zhao H, Liu M, Jiang T, Xu J, Zhang H, Yu C, Liu Z, Wang Y, Tang L, “Ultrasensitive Monitoring of DNA Damage Associated with Free Radicals Exposure Using Dynamic Carbon Nanotubes Bridged Interdigitated ElectrodeArray”, Environment International, 139, 2020.'
+layout: academic-publication
+title: Ultrasensitive monitoring of DNA damage associated with free radicals exposure using dynamic carbon nanotubes bridged interdigitated electrode array
+permalink: /publication/2010-10-01-paper-title-number-2
+redirect_from:
+  - "/https:/doi.org/10.1016/j.envint.2020.105672/"
+authors: [Hui Zhao, Misha Liu, Tao Jiang, Jinjin Xu, Huirong Zhang, Chaofan Yu, Zipeng Liu, Ying Wang, Longhua Tang]
+venue: Environment International
+citation_date: "2020-06"
+volume: 139
+locator: 105672
+doi: 10.1016/j.envint.2020.105672
+links:
+  - title: PubMed
+    url: https://pubmed.ncbi.nlm.nih.gov/32248022/
 ---
-[Download paper here](https://doi.org/10.1016/j.envint.2020.105672)
 
-Recommended citation: Zhao H, Liu M, Jiang T, Xu J, Zhang H, Yu C, Liu Z, Wang Y, Tang L, “Ultrasensitive Monitoring of DNA Damage Associated with Free Radicals Exposure Using Dynamic Carbon Nanotubes Bridged Interdigitated ElectrodeArray”, Environment International, 139, 2020.
+This collaborative study used an electrochemical sensor to detect DNA damage associated with exposure to free radicals.

@@ -1,16 +1,15 @@
 ---
-title: "Probabilistic Material Flow Analysis and Emissions Modeling for Five Commodity Plastics (PUR, ABS, PA, PC, and PMMA) as Macroplastics and Microplastics"
-collection: publications
+layout: academic-publication
+title: "Probabilistic material flow analysis and emissions modeling for five commodity plastics (PUR, ABS, PA, PC, and PMMA) as macroplastics and microplastics"
 permalink: /publication/2015-10-01-paper-title-number-3
-excerpt: 'Detailed knowledge about polymer flows through the anthroposphere and into the environment is information essential to the better management of plastics. This work aimed to model those flows for five polymers.'
-date: 2022-01-20
-venue: 'Resources, Conservation and Recycling'
-paperurl: 'https://doi.org/10.1016/j.resconrec.2021.106071'
-citation: 'Liu Z, Nowack B, “Probabilistic Material Flow Analysis and Emissions Modeling for Five Commodity Plastics as Macroplastics and Microplastics”, Resources, Conservation and Recycling, 179, 2022.'
+authors: [Zipeng Liu, Bernd Nowack]
+venue: "Resources, Conservation and Recycling"
+citation_date: "2022"
+volume: 179
+locator: 106071
+doi: 10.1016/j.resconrec.2021.106071
 ---
-This paper is about the number 3. The number 4 is left for future work.
 
-[Download paper here](https://doi.org/10.1016/j.resconrec.2021.106071)
+This study uses probabilistic material flow analysis to estimate how five commodity polymers move through the economy and are released as macroplastics and microplastics. It reports estimates by polymer and release pathway.
 
-Recommended citation: Liu Z, Nowack B, “Probabilistic Material Flow Analysis and Emissions Modeling for Five Commodity Plastics (PUR,
-ABS, PA, PC, and PMMA) as Macroplastics and Microplastics”, Resources, Conservation and Recycling, 179, 2022.
+[Research overview]({{ '/research/' | relative_url }}#plastic-releases)

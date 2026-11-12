@@ -11,6 +11,9 @@ author_profile: true
 
 {% endif %}
 
-{% for post in site.talks reversed %}
+{% assign talks = site.talks | where_exp: 'item', 'item.archived != true' %}
+{% for post in talks reversed %}
   {% include archive-single-talk.html %}
+{% else %}
+  <p>For current work, see <a href="{{ '/research/' | relative_url }}">Research</a> and <a href="{{ '/publications/' | relative_url }}">Publications</a>.</p>
 {% endfor %}

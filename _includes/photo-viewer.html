@@ -1,0 +1,20 @@
+{% if include.count > 0 %}
+  <dialog class="photo-lightbox" aria-labelledby="photo-viewer-title" data-photo-viewer>
+    <div class="photo-viewer">
+      <div class="photo-viewer-header">
+        <h2 class="visually-hidden" id="photo-viewer-title">Photo viewer</h2>
+        <p class="photo-position" aria-hidden="true" data-photo-position></p>
+        <button class="photo-control" type="button" data-photo-close autofocus>Close <span aria-hidden="true">×</span></button>
+      </div>
+      <div class="photo-stage" data-photo-stage></div>
+      <p class="photo-caption" data-photo-caption hidden></p>
+      <p class="visually-hidden" role="status" data-photo-status></p>
+      {% if include.count > 1 %}
+        <div class="photo-viewer-navigation">
+          <button class="photo-control" type="button" data-photo-previous><span aria-hidden="true">←</span> Previous</button>
+          <button class="photo-control" type="button" data-photo-next>Next <span aria-hidden="true">→</span></button>
+        </div>
+      {% endif %}
+    </div>
+  </dialog>
+{% endif %}
